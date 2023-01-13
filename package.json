@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-project1-",
+  "version": "1.0.0",
+  "description": "A first project using node.js, Express and a lot of angular",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miusarname/nodejs-project1-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miusarname/nodejs-project1-/issues"
+  },
+  "homepage": "https://github.com/miusarname/nodejs-project1-#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
