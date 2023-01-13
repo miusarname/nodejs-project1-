@@ -13,4 +13,8 @@ router.get("/Contact", (req, res) => {
   res.render("contact", { title: "Más Información del Proyecto" });
 });
 
+router.get("/", (req, res) => {
+  res.render("index", { title: "Inicio de pagina con node.js" });
+});
+
 export default router;
